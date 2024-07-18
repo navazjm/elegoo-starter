@@ -1,4 +1,3 @@
-#define F_CPU 16000000UL // Define the CPU clock frequency
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -9,7 +8,7 @@ int main(void) {
   while (1) {
     // Toggle PB5
     PORTB ^= (1 << PB5);
-    _delay_ms(500); // Wait 1 second
+    _delay_ms(3000); // Wait 3 seconds
   }
 
   return 0;
