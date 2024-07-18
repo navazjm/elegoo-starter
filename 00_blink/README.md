@@ -2,7 +2,7 @@
 
 ## Project setup
 
-I am a programmer who loves their dev environment and wants to make things as difficult as possible.
+I am a programmer who loves their dev environment and want to make things as difficult as possible.
 Also, because I despise bloated IDEs and want to vim it up, these are the things I did to be able to build and upload my programs 
 to the Elegoo Uno R3 board.
 
