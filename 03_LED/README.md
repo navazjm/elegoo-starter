@@ -84,8 +84,8 @@ somewhere
 
 #### LED with 220 Ohm Resistor (Brighter)
 
-![](./images/220_ohm.jpg?raw=true | width=100)
+![](./images/220_ohm.jpg)
 
 #### LED with 10k Ohm Resistor (Dimmer)
 
-![](./images/10k_ohm.jpg?raw=true | width=100)
+![](./images/10k_ohm.jpg)
