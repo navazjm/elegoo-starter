@@ -103,6 +103,22 @@ digital ports to OCRs. However, after many hours of troubleshooting, I was able 
 
 <img src="./images/pinout-diagram.jpg" alt="Elegoo Uno R3 pinout diagram" width="500">
 
+Red and Blue were easy to determine which Digital Port mapped to which OCR. Due to how I wired everything 
+together, the Red LED pin was wired to DP 6 and looking at the image you can see mapped to OC0A. Blue LED
+pin was wired to DP 3 which mapped to OC2B.
+
+<img src="./images/pinout-diagram-red-blue.jpg" alt="Elegoo Uno R3 pinout diagram">
+
+Now, the Green LED pin was wired to DP 5. There was no OCR mapping next to it. However, to the left of PD5, we see DP 5
+corresponds to ATmega328P physical pin 11.
+
+<img src="./images/pinout-diagram-green.jpg" alt="Elegoo Uno R3 pinout diagram">
+
+If we go over to the ATmega328P chip, we can find the correct OCR needed to for the Green LED Pin by locating the 0
+Finally, if we look at ATmega328P physical pin 11, we can see PD5 maps to OC0B.
+
+<img src="./images/pinout-diagram-green-2.jpg" alt="Elegoo Uno R3 pinout diagram">
+
 
 ## Build and Upload Process to Elegoo Uno R3
 
