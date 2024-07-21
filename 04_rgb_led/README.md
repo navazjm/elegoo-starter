@@ -171,6 +171,16 @@ avrdude -c arduino -p m328p -P $PORT -b 115200 -U flash:w:rgb_led.hex:i
 
 ## Images
 
+#### Connection Schematic
+
+<img src="./images/connection_schematic.png" alt="Connection Schematic" width="300">
+
+#### Wiring Diagram
+
+<img src="./images/wiring_diagram.png" alt="Wiring Diagram" width="300">
+
+#### Examples
+
 <img src="./images/result_1.jpg" alt="RGB LED Result Image 1" width="300">
 <img src="./images/result_2.jpg" alt="RGB LED Result Image 1" width="300">
 <img src="./images/result_3.jpg" alt="RGB LED Result Image 1" width="300">
