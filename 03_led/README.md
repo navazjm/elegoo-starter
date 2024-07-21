@@ -82,6 +82,14 @@ somewhere
 
 ### Images 
 
+#### Connection Schematic
+
+<img src="./images/connection_schematic.png" alt="Connection Schematic" width="300">
+
+#### Wiring Diagram
+
+<img src="./images/wiring_diagram.png" alt="Wiring Diagram" width="300">
+
 #### LED with 220 Ohm Resistor (Brighter)
 
 <img src="./images/220_ohm.jpg" alt="LED with 220 Ohm Resistor" width="300">
