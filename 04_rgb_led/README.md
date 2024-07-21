@@ -170,3 +170,9 @@ avrdude -c arduino -p m328p -P $PORT -b 115200 -U flash:w:rgb_led.hex:i
 ```
 
 ## Images
+
+<img src="./images/result_1.jpg" alt="RGB LED Result Image 1" width="300">
+<img src="./images/result_2.jpg" alt="RGB LED Result Image 1" width="300">
+<img src="./images/result_3.jpg" alt="RGB LED Result Image 1" width="300">
+<img src="./images/result_4.jpg" alt="RGB LED Result Image 1" width="300">
+<img src="./images/result_5.jpg" alt="RGB LED Result Image 1" width="300">
