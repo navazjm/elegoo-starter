@@ -1,4 +1,4 @@
-# Elegoo Uno R3 - Blink Led 
+# Lesson 2 Blink
 
 ## Project setup
 
