@@ -3,12 +3,14 @@
 
 int main(void) {
 
+    // set pins to their corresponding ports
     const uint8_t LED_PIN = PD5;
     const uint8_t BUTTON_A_PIN = PB1;
     const uint8_t BUTTON_B_PIN = PB0;
 
     // Set LED_PIN as output
     DDRD |= (1 << LED_PIN);
+
     // Set BUTTON_A_PIN and BUTTON_B_PIN as input with pull-up resistors
     DDRB &= ~(1 << BUTTON_A_PIN);
     PORTB |= (1 << BUTTON_A_PIN);
