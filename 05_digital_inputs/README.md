@@ -6,6 +6,7 @@
         - [Push Switches](#push-switches)
     - [Key Takeaways](#key-takeaways)
     - [Images](#images)
+    - [Additional Challenge](#additional-challenge)
 - [Build and Upload Process to Elegoo Uno R3](#build-and-upload-process-to-elegoo-uno-r3)
     - [Run Script](#run-script)
         - [usage](#usage)
@@ -51,6 +52,10 @@ I had connected positive to ground. So this is a reminder to always double check
 <img src="./images/wiring_diagram.png" alt="Wiring Diagram" width="300">
 
 #### Outcome
+
+### Additional Challenge
+
+Update the code and circuit to only allow one switch to toggle on/off the red led.
 
 ## Build and Upload Process to Elegoo Uno R3
 
