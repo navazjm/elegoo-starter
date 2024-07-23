@@ -22,7 +22,7 @@ void setup() {
     TCCR2B = (1 << CS00);                                 // No prescaling
 }
 
-void analogWrite(uint8_t pin, uint8_t value) {
+void analog_write(uint8_t pin, uint8_t value) {
     switch (pin) {
     case RED:
         OCR0A = value; // Output value to RED pin
@@ -39,42 +39,42 @@ void analogWrite(uint8_t pin, uint8_t value) {
 }
 
 void loop() {
-    uint8_t redValue = 255;
-    uint8_t greenValue = 0;
-    uint8_t blueValue = 0;
+    uint8_t red_value = 255;
+    uint8_t green_value = 0;
+    uint8_t blue_value = 0;
 
     // Fade out RED and bring GREEN full
     for (uint8_t i = 0; i < 255; i++) {
-        redValue -= 1;
-        greenValue += 1;
-        analogWrite(RED, redValue);
-        analogWrite(GREEN, greenValue);
+        red_value -= 1;
+        green_value += 1;
+        analog_write(RED, red_value);
+        analog_write(GREEN, green_value);
         _delay_ms(DELAY_TIME);
     }
 
-    redValue = 0;
-    greenValue = 255;
-    blueValue = 0;
+    red_value = 0;
+    green_value = 255;
+    blue_value = 0;
 
     // Fade out GREEN and bring BLUE full
     for (uint8_t i = 0; i < 255; i++) {
-        greenValue -= 1;
-        blueValue += 1;
-        analogWrite(GREEN, greenValue);
-        analogWrite(BLUE, blueValue);
+        green_value -= 1;
+        blue_value += 1;
+        analog_write(GREEN, green_value);
+        analog_write(BLUE, blue_value);
         _delay_ms(DELAY_TIME);
     }
 
-    redValue = 0;
-    greenValue = 0;
-    blueValue = 255;
+    red_value = 0;
+    green_value = 0;
+    blue_value = 255;
 
     // Fade out BLUE and bring RED full
     for (uint8_t i = 0; i < 255; i++) {
-        blueValue -= 1;
-        redValue += 1;
-        analogWrite(BLUE, blueValue);
-        analogWrite(RED, redValue);
+        blue_value -= 1;
+        red_value += 1;
+        analog_write(BLUE, blue_value);
+        analog_write(RED, red_value);
         _delay_ms(DELAY_TIME);
     }
 }
