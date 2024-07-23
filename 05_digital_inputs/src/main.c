@@ -1,11 +1,12 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define LED_PIN PD5
-#define BUTTON_A_PIN PB1
-#define BUTTON_B_PIN PB0
+int main(void) {
 
-void setup() {
+    const uint8_t LED_PIN = PD5;
+    const uint8_t BUTTON_A_PIN = PB1;
+    const uint8_t BUTTON_B_PIN = PB0;
+
     // Set LED_PIN as output
     DDRD |= (1 << LED_PIN);
     // Set BUTTON_A_PIN and BUTTON_B_PIN as input with pull-up resistors
@@ -13,10 +14,6 @@ void setup() {
     PORTB |= (1 << BUTTON_A_PIN);
     DDRB &= ~(1 << BUTTON_B_PIN);
     PORTB |= (1 << BUTTON_B_PIN);
-}
-
-int main(void) {
-    setup();
 
     while (1) {
         // Check if button A is pressed
