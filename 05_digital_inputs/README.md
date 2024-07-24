@@ -53,9 +53,21 @@ I had connected positive to ground. So this is a reminder to always double check
 
 #### Outcome
 
+<img src="./images/outcome_1.jpg" alt="Final result - off" width="300">
+
+<img src="./images/outcome_2.jpg" alt="Final result - on" width="300">
+
+<img src="./images/outcome_3.jpg" alt="Final result - off again" width="300">
+
 ### Additional Challenge
 
 Update the code and circuit to only allow one switch to toggle on/off the red led.
+
+<img src="./images/ac_outcome_1.jpg" alt="Additional challenge result - off" width="300">
+
+<img src="./images/ac_outcome_2.jpg" alt="Additional challenge result - on" width="300">
+
+<img src="./images/ac_outcome_3.jpg" alt="Additional challenge result - off again" width="300">
 
 ## Build and Upload Process to Elegoo Uno R3
 
