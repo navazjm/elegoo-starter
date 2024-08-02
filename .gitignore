@@ -1,6 +1,6 @@
 .DS_Store
-docs/code/*
-docs/libs/*
+docs/elegoo_starter_docs/code/*
+docs/elegoo_starter_docs/libs/*
 
 ### CMake ###
 CMakeLists.txt.user
